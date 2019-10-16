@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+.body {
+  background-image: linear-gradient(180deg, #000000 0%, rgba(43, 43, 43, 0) 100%), url('./moon.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.nav {
+  border-bottom: 1px solid gainsboro;
+}
+
+.side-icons {
+  min-height: 100%;
+  color: white;
+}
+
+.day {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 45px;
+  color: rgba(255, 255, 255, 0.82);
+}
+
+.quote {
+  font-family: 'Roboto';
+  font-size: 35px;
+  font-weight: normal;
+  line-height: 50px;
+  color: white;
+}
+
+.btn {
+  border: 1px solid white;
+  color: white;
+  width: 250px;
+}
+
+.welcome-text {
+  margin-top: 30%;
+}
+
+.side {
+  margin-top: 7%; 
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+.projects-box{
+  display: none; 
+}
+
+.list-project{
+  display: none;
+}
+
+/* .icon-bar{
+  padding-right: 4px;
+} */
+
+@media only screen and (min-width: 768px) {
+  .side-icons {
+    height: 100%;
+    border-left: 1px solid gainsboro;
+    color: white;
+  }
+  
+  .day {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 50px;
+    color: rgba(255, 255, 255, 0.82);
+    animation: swing 0.8s ease forwards;
+  }
+  .quote {
+    font-family: 'Roboto';
+    font-size: 55px;
+    font-weight: normal;
+    line-height: 78px;
+    color: white;
+    animation: swing 0.8s ease forwards;
+  }
+
+  @keyframes swing {
+    0%{opacity: 0;}
+    70%{ transform: translateY(70px)}
+    100%{transform: translateY(10px)}
+  }
+
+
+  .btn {
+    border: 1px solid white;
+    color: white;
+    width: 250px;
+    animation: swing 0.8s ease forwards;
+  }
+  .welcome-text {
+    margin-top: 8%;
+    height: 100%;
+  }
+
+  .home-bar{
+    height: 80%;
+  }
+  .side {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, 40%);
+  }
+  .icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .projects-box{
+    display: block;
+    position: relative;
+    top: 17%;
+    width: auto;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 30px 30px 0px 0px;
+  }
+
+  .list-project{
+    display: block;
+  }
+}
