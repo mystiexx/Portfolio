@@ -8,7 +8,7 @@ class Header extends Component {
         return (
             <div>
                 <Container>
-                <Navbar expand="lg" variant="dark" className="nav p-4">
+                <Navbar expand="lg" variant="dark" className="nav">
                     <Navbar.Brand href="#home">Roland Enola</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
