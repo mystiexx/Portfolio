@@ -10,6 +10,11 @@
   border-bottom: 1px solid gainsboro;
 }
 
+.line {
+  height: 100%;
+  color: white;
+}
+
 .side-icons {
   min-height: 100%;
   color: white;
@@ -103,17 +108,14 @@
   }
   .welcome-text {
     margin-top: 8%;
-    height: 100%;
+    position: relative;
   }
 
-  .home-bar{
-    height: 80%;
-  }
   .side {
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 50%;
-    transform: translate(-50%, 40%);
+    transform: translate(-50%, 30%);
   }
   .icon {
     width: 30px;
@@ -122,8 +124,7 @@
 
   .projects-box{
     display: block;
-    position: relative;
-    top: 17%;
+    margin-top: 9.3%;
     width: auto;
     height: auto;
     background-color: rgba(255, 255, 255, 0.3);
@@ -132,5 +133,11 @@
 
   .list-project{
     display: block;
+  }
+
+  .line {
+    border-left: 1px solid gainsboro;
+    height: 100%;
+    color: white;
   }
 }

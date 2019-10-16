@@ -49,21 +49,22 @@ class Home extends Component {
                         </Col>
 
                         <Col md={2}>
-                            <div className="side-icons">
+                           
+                                <div className="line">
                                 <div className="side d-flex flex-lg-column flex-sm-row">
                                     <div className="icon-bar mb-lg-4 mr-sm-3">
                                         <FaFacebookF className="icon" />
                                     </div>
-                                    <div className="icon-bar">
+                                    <div className="icon-bar mb-lg-4 mr-sm-3">
                                         <FaGithub className="icon" />
                                     </div>
                                     <div className="icon-bar">
                                         <FaTwitter className="icon" />
                                     </div>
-
+                                    </div>
                                 </div>
 
-                            </div>
+                           
 
                         </Col>
 
