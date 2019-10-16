@@ -48,7 +48,7 @@
 }
 
 .side {
-  margin-top: 7%; 
+  margin-top: 7%;
 }
 
 .icon {
@@ -56,17 +56,41 @@
   height: 30px;
 }
 
-.projects-box{
-  display: none; 
-}
-
-.list-project{
+.projects-box {
   display: none;
 }
 
-/* .icon-bar{
-  padding-right: 4px;
-} */
+.list-project {
+  display: none;
+}
+
+.link {
+  color: rgb(144, 144, 144);
+}
+
+.about-card {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  margin-top: 2%;
+  transform: translate(-2%);
+  border-radius: 20px;
+}
+.image {
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
+  background-color: #929292;
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+.about-name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  color: #FFFEFE;
+}
 
 @media only screen and (min-width: 768px) {
   .side-icons {
@@ -74,7 +98,6 @@
     border-left: 1px solid gainsboro;
     color: white;
   }
-  
   .day {
     font-family: Roboto;
     font-style: normal;
@@ -92,14 +115,17 @@
     color: white;
     animation: swing 0.8s ease forwards;
   }
-
   @keyframes swing {
-    0%{opacity: 0;}
-    70%{ transform: translateY(70px)}
-    100%{transform: translateY(10px)}
+    0% {
+      opacity: 0;
+    }
+    70% {
+      transform: translateY(70px)
+    }
+    100% {
+      transform: translateY(10px)
+    }
   }
-
-
   .btn {
     border: 1px solid white;
     color: white;
@@ -110,7 +136,6 @@
     margin-top: 8%;
     position: relative;
   }
-
   .side {
     position: absolute;
     top: 30%;
@@ -121,8 +146,7 @@
     width: 30px;
     height: 30px;
   }
-
-  .projects-box{
+  .projects-box {
     display: block;
     margin-top: 9.3%;
     width: auto;
@@ -130,14 +154,37 @@
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 30px 30px 0px 0px;
   }
-
-  .list-project{
+  .list-project {
     display: block;
   }
-
   .line {
     border-left: 1px solid gainsboro;
     height: 100%;
     color: white;
+  }
+  .about-card {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    border-radius: 20px;
+    margin-top: 10%;
+    margin-left: 50%;
+    height: 100%;
+    transform: translate(-50%, -10%);
+  }
+  .image {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    background-color: #929292;
+    margin-left: 50%;
+    transform: translate(-50%);
+  }
+  .about-name {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFEFE;
   }
 }
